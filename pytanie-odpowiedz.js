@@ -8,7 +8,7 @@ function onPageLoad()
     reloadButton.addEventListener("click", clearForm);
 
     var exerciceBody = document.getElementById("exercice-wrapper");
-    questions = [ "Odpowiedz na pytania o sobie", "Parles-tu anglais ?", "Tu parles allemand ?", "Quels animaux possédez-vous?", "Quel est ton métier ?", "Quelles langues parlez-vous ?", "Parlez-vous allemand ?", "Combien d'enfants avez-vous?", "Quelle est ta profession ?", "Tu as quel âge ?", "Vous êtes de quelle nationalité ?", "Comment vous appelez-vous ?", "Qu'est-ce que tu fais dans la vie ?" ];
+    questions = [ "Odpowiedz na pytania o sobie", "Tu parles quelles langues ?", "Tu parles allemand ?", "Quels animaux possédez-vous?", "Quel est ton métier ?", "Quelles langues parlez-vous ?", "Parlez-vous allemand ?", "Combien d'enfants avez-vous?", "Quelle est ta profession ?", "Tu as quel âge ?", "Vous êtes de quelle nationalité ?", "Comment vous appelez-vous ?", "Qu'est-ce que tu fais dans la vie ?" ];
     answers = [ "Odpowiedzi mogą się powtarzać", "Je parle anglais.", "Je ne parle pas allemand.", "J'ai deux chats.", "Je suis médecin.", "Je parle anglais.", "Je ne parle pas allemand.", "J'ai deux enfants.", "Je suis médecin.", "J'ai 53 ans.", "Je suis polonais.", "Je m'appelle Marcin.", "Je suis médecin." ];
     hints = [ "Présentation", "angielski", "Nie mówię po niemiecku", "Mam dwa koty", "lekarz", "angielski", "Nie mówię po niemiecku", "2", "lekarz", "53", "Polak", "Marcin", "lekarz" ];
 
